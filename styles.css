@@ -18,24 +18,25 @@ button,input,select,.box {
     color: black;
     padding: 2px;
     margin: 3px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 select{
-    background-color: #e9eaed;
-    border-color: #175172;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 5px;
     height: 46px;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
 }
 
 .form_row{
