@@ -12,7 +12,7 @@
 <form method="post" select="<?php echo $_SERVER['PHP_SELF']; ?>">
 
     <div class="form_row">
-        <input type="number" id="num1" name="num1" required><br>
+        <input type="number" step=any id="num1" name="num1" required><br>
         <select id="op" name="op">
             <option value="+">plus</option>
             <option value="-">mínus</option>
@@ -21,7 +21,7 @@
             <option value="m">mocnina</option>
             <option value="oh">odmocnina</option>
         </select>
-        <input type="number" id="num2" name="num2" required><br>
+        <input type="number" step=any id="num2" name="num2" required><br>
         <p>=</p>
         <div class="box">
             <?php include 'kalkulacka.php'; ?>
