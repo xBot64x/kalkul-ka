@@ -1,0 +1,46 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.kalkulacka { 
+    width: 320px;
+    background-color: rgb(205, 247, 255); 
+  }
+
+button,input,select,.box {
+    background-color: #E9E9ED;
+    border-color: #175172;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    height: 40px;
+    color: black;
+    padding: 2px;
+    margin: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+select{
+    background-color: #e9eaed;
+    border-color: #175172;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    height: 46px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.form_row{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
