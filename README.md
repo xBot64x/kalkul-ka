@@ -1,5 +1,5 @@
 # Kalkul-ka
-## Filip kníže
+## jméno: 58819
 
 ## nejlepší html a php kalkulačka kterou jste kdy ve svém životě použili
 funkce: 
